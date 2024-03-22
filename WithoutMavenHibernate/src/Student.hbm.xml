@@ -1,0 +1,11 @@
+<!-- src/main/resources/com/example/model/User.hbm.xml -->
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.WithoutMavenHibernate">
+    <class name="com.WithoutMavenHibernate.Student" table="WithoutmavenHiber">
+        <id name="id" type="int"></id>
+        <property name="name" type="string"></property>
+        <property name="city" type="string"></property>
+    </class>
+</hibernate-mapping>
